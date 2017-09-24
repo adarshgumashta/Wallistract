@@ -1,0 +1,107 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+          <item name="colorPrimary">@color/colorPrimary</item>
+          <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+          <item name="colorAccent">@color/colorAccent</item>
+
+          <!--<item name="windowActionBar">false</item>
+          <item name="windowNoTitle">true</item>-->
+          <item name="fab_size">normal</item>
+          <item name="fab_shadowColor">#66000000</item>
+          <item name="fab_colorNormal">@color/colorPrimary</item>
+          <item name="fab_colorPressed">@color/colorPrimaryDark</item>
+          <item name="menu_colorNormal">@color/colorPrimary</item>
+          <item name="menu_colorPressed">@color/colorPrimaryDark</item>
+    </style>
+
+    <color name="transparent_black">#0D383A42</color>
+
+    <style name="Chat" parent="AppTheme">
+        <item name="colorPrimary">@color/Vulcan</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+
+    <style name="Custom" parent="android:Theme.Holo">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionBarStyle">@style/action_bar_theme</item>
+        <item name="android:actionMenuTextColor">#fff</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="action_bar_theme" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">#0D000000</item>
+        <item name="android:displayOptions"></item>
+        <!--   <item name="android:titleTextStyle">@style/action_bar_text</item>-->
+    </style>
+    <style name="TransparentToolbar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="FreeWallTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBarTheme</item>
+    </style>
+
+    <style name="MyActionBarTheme" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/action_bar</item>
+        <item name="android:titleTextStyle">@style/TitleTextStyle</item>
+    </style>
+
+    <style name="TitleTextStyle" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/action_bar_title</item>
+    </style>
+
+    <style name="Cropper.Widget.Drawer.Seperator" parent="android:Widget.DeviceDefault.Light.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginBottom">@dimen/drawer_text_padding</item>
+        <item name="android:layout_marginTop">@dimen/drawer_text_padding</item>
+        <item name="android:background">#5FFF</item>
+    </style>
+
+    <style name="Cropper.Widget.Drawer.Title.TextView" parent="android:Widget.DeviceDefault.Light.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/drawer_text_padding</item>
+        <item name="android:textSize">@dimen/drawer_text_size</item>
+        <item name="android:clickable">false</item>
+        <item name="android:textColor">#8FFF</item>
+    </style>
+
+    <style name="Cropper.Widget.Drawer.Option.TextView" parent="android:Widget.DeviceDefault.Light.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/drawer_text_padding</item>
+        <item name="android:textSize">@dimen/drawer_text_size</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+
+    </style>
+</resources>

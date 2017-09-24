@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Wallistract</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">LOVE MUSIC</string>
+    <string name="backdrop_subtitle">This season top 20 albums</string>
+    <string name="title_activity_listitems">listitems</string>
+    <string name="nav_drawer_recently_added">Recently Added</string>
+    <string name="toast_saved">Wallpapaer saved to #</string>
+    <string name="toast_saved_failed">Sorry! Failed to save wallpaper</string>
+    <string name="toast_wallpaper_set">Wallpapaer updated!</string>
+    <string name="toast_wallpaper_set_failed">Sorry! Unable to set wallpapaer</string>
+    <string name="splash_error">Unable to download wallpapers. Verify your google\'s user name in settings or device doesn\'t have internet connection!</string>
+    <string name="set_wallpaper">Set</string>
+    <string name="download_wallpaper">Download</string>
+    <string name="msg_unknown_error">Sorry! Unknown error occurred.</string>
+    <string name="msg_wall_fetch_error">Sorry! Unable to fetch wallpaper(s). Verify app settings or device doesn\'t have internet connection.</string>
+    <string name="toast_enter_google_username">Please enter google username</string>
+    <string name="toast_enter_valid_grid_columns">Please enter valid number of columns</string>
+    <string name="toast_enter_gallery_name">Please enter gallery directory name</string>
+    <string name="lbl_google_username">Google username</string>
+    <string name="lbl_no_grid_columns">Number of grid columns</string>
+    <string name="lbl_gallery_name">Gallery directory name</string>
+    <string name="lbl_btn_save">Save</string>
+    <string name="main_action_crop">CROP</string>
+    <string name="main_action_rotate">Rotate 90 degrees clockwise</string>
+    <string name="result_image_desc">crop result</string>
+
+    <string name="main_drawer_load">Load Image for cropping</string>
+    <string name="main_drawer_open">Open navigation drawer</string>
+    <string name="main_drawer_close">Close navigation drawer</string>
+
+
+    <string name="drawer_option_title">Crop View Presets</string>
+    <string name="drawer_option_oval">Circular</string>
+    <string name="drawer_option_rect">Rectangular</string>
+    <string name="drawer_option_min_max">Min/Max limits override</string>
+    <string name="drawer_option_customized_overlay">Customized Overlay</string>
+    <string name="drawer_option_scale_center">Scale Center Inside</string>
+    <string name="drawer_option_title2">Customization Toggles</string>
+    <string name="drawer_option_toggle_scale">Image Scale: %1s</string>
+    <string name="drawer_option_toggle_shape">Crop Shape: %1s</string>
+    <string name="drawer_option_toggle_guidelines">Guidelines: %1s</string>
+    <string name="drawer_option_toggle_aspect_ratio">Aspect Ratio: %1s</string>
+    <string name="drawer_option_toggle_auto_zoom">Auto zoom: %1s</string>
+    <string name="drawer_option_toggle_max_zoom">Max zoom level: %1s</string>
+    <string name="drawer_option_set_initial_crop_rect">Set initial crop rectangle</string>
+    <string name="drawer_option_reset_crop_rect">Reset crop rectangle to initial</string>
+    <string name="drawer_option_toggle_multitouch">Multitouch: %1s</string>
+    <string name="drawer_option_toggle_show_overlay">Show Overlay: %1s</string>
+    <string name="drawer_option_toggle_show_progress_bar">Show Progress Bar: %1s</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_full_screen">FullScreenActivity</string>
+    <!-- AdMob ad unit IDs -->
+    <string name="banner_home_footer">ca-app-pub-0664570763252260/3326522424</string>
+    <string name="interstitial_full_screen">ca-app-pub-0664570763252260/1769900428</string>
+    <string name="title_activity_sample">sample</string>
+
+</resources>
